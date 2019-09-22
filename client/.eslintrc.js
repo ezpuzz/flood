@@ -43,6 +43,12 @@ module.exports = {
         },
       },
     ],
+    // FIXME: introduced by eslint update
+    'prefer-object-spread': 0,
+    'react/static-property-placement': 0,
+    'react/jsx-props-no-spreading': 0,
+    'react/state-in-constructor': 0,
+    'jsx-a11y/control-has-associated-label': 0
   },
   settings: {
     'import/resolver': {
