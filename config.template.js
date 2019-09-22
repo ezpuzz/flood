@@ -47,7 +47,7 @@ const CONFIG = {
     // watchMountPoints: [
     //   "/mnt/disk"
     // ]
-  }
+  },
 };
 // Do not remove the below line.
 module.exports = CONFIG;

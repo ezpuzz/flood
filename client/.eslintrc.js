@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  extends: ["react-app"],
   env: {
     browser: 1,
     node: 0,
@@ -10,7 +11,6 @@ module.exports = {
     process: 'writable',
     window: 'writable',
   },
-  plugins: ['import'],
   rules: {
     // TODO: Enable a11y features
     'jsx-a11y/click-events-have-key-events': 0,
@@ -44,11 +44,10 @@ module.exports = {
       },
     ],
     // FIXME: introduced by eslint update
-    'prefer-object-spread': 0,
     'react/static-property-placement': 0,
     'react/jsx-props-no-spreading': 0,
     'react/state-in-constructor': 0,
-    'jsx-a11y/control-has-associated-label': 0
+    'jsx-a11y/control-has-associated-label': 0,
   },
   settings: {
     'import/resolver': {
